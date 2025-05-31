@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Știrea săptămânii</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #212d47;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            background: #1a2a4c;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            padding: 32px 28px 28px 28px;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        h1 {
+            color: #2a3a5c;
+            font-size: 2.2em;
+            margin-bottom: 18px;
+            text-align: center;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        h1:hover {
+            color: #1a2a4c;
+        }
+        h2 {
+            color: #555;
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: color 0.3s ease;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        h2:hover {
+            color: #333;
+        }
+        p {
+            color: #333;
+            font-size: 1.13em;
+            line-height: 1.7;
+            text-align: justify;
+        }
+        footer {
+            background: #2a3a5c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ziarul Școlii</h1>
+    </header>
+    <nav>
+        <a href="acasa.html">Acasă</a>
+        <a href="despre-noi.html">Despre Noi - Clasa a 7 a</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Știrea săptămânii</h1>
+        <h2 style="color: #555; font-size: 1.5em; text-align: center; margin-bottom: 20px;">Evaluările Naționale la Matematică și Limba Română</h2>
+        <hr style="border: 0; height: 1px; background: #ddd; margin: 20px 0;">
+        <p>Săptămâna aceasta, elevii școlii noastre au participat la evaluările naționale la disciplinele matematică și limba română. Examinările s-au desfășurat într-un cadru organizat, respectând toate normele educaționale și de siguranță. Elevii au demonstrat seriozitate, pregătire temeinică și dorința de a obține rezultate remarcabile. Cadrele didactice au sprijinit constant procesul de învățare, asigurându-se că fiecare elev a avut acces la resursele necesare pentru a-și valorifica potențialul. Rezultatele acestor evaluări vor reflecta nu doar nivelul de cunoștințe dobândit, ci și efortul comun al întregii comunități școlare. Felicităm toți elevii pentru implicare și le dorim succes în continuare!</p>
+        <footer style="text-align: center; margin-top: 30px; color: #777; font-size: 0.9em;">© 2025 Scoala Karpen</footer>
+    </div>
+    <footer>
+        <p>© 2025 Scoala Karpen. Toate drepturile rezervate.</p>
+        <p style="text-align: right; margin-top: 10px; color: #555;">Proiect realizat de Udrea Andrei, Iftimie David și Tudor Adeaconitei</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.style.opacity = '0';
+            setTimeout(function() {
+                document.body.style.transition = 'opacity 1s';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html> 
